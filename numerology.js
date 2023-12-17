@@ -277,9 +277,9 @@ function toggleDarkMode() {
   }
 }
 
-// document
-//   .getElementById("mode-toggle")
-//   .addEventListener("change", toggleDarkMode);
+document
+  .getElementById("mode-toggle")
+  .addEventListener("change", toggleDarkMode);
 
 document.addEventListener("DOMContentLoaded", (event) => {
   const modeToggle = document.getElementById("mode-toggle");
