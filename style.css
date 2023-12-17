@@ -25,6 +25,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 3%;
+  margin: 2px;
+}
+
+#btn-reset{
+  background-color: red;
 }
 .input-box {
   display: flex;
@@ -45,7 +51,7 @@ button {
   padding: 5px;
 }
 .input-box button {
-  width: 200px;
+  width: 137px;
   background-color: #a094cd;
   padding: 7px;
   border-radius: 32px;
@@ -150,7 +156,6 @@ body {
 #number-design{
   font-size: 1.5em;
     color: #ffffff;
-    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d9d9d9; */
     text-align: center;
     font-weight: bold;
     margin: 0 auto;
