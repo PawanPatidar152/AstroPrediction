@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Numerology Calculator</title>
+    <link rel="icon" href="/eyelogo.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Switch">
+    <div class="mode-switch">
+      <label id="mode-toogle-text" for="mode-toggle">Mode: <span id="mode-text">🌞 Light</span></label>
+      <input type="checkbox"  id="mode-toggle" />
+    </div>
+  </div>
+    
+    <div class="container">
+      <div>
+        <h2>
+          Online Name Numerology Calculator - Prediction for Expression , Soul
+          Urge and Personality Numbers
+        </h2>
+      </div>
+
+      <div class="input-box">
+        <div class="input-box-heading">
+          <h1>Name number Numerology</h1>
+        </div>
+        <label for="nameInput" class="input-label">Enter Your Name:</label>
+        <input
+          type="text"
+          class="input-label"
+          id="nameInput"
+          placeholder="Enter Name"
+        />
+        <div class="btn">
+          <button onclick="calculateNumerology()" >Calculate</button>
+        </div>
+      </div>
+    </div>
+    <div id="result">
+
+    </div>
+    <script src="numerology.js"></script>
+  </body>
+</html>
